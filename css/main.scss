@@ -312,6 +312,10 @@ footer {
     height: 4px;
 }
 
+.separating-bar {
+    height: 2px;
+}
+
 .app-h1 {
     font-size: 2.2em;
     text-align: center;
@@ -354,6 +358,11 @@ footer {
 .get-notified-link:hover {
     border-color: $content_dark_gray;
     color: $content_dark_gray;
+}
+
+.main-image-container {
+    margin: 40px 0 40px 0;
+    text-align: center;
 }
 
 /* ====================
