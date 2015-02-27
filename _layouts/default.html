@@ -16,40 +16,6 @@
         <![endif]-->
     </head>
     <body>
-
-        <div class="header-container">
-            <header class="site-nav">
-                <nav>
-                    <ul>
-                        <li><a href="#">Blog</a></li>
-                        <li class="nav-separator">/</li>
-                        <li><a href="#">Projects</a></li>
-                        <li class="nav-separator">/</li>
-                        <li><a href="#">About</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
-
-        <div class="main-container">
-            <div class="main wrapper clearfix">
-
-                {{ content }}
-
-            </div> <!-- #main -->
-        </div> <!-- #main-container -->
-
-        {% if page.categories contains 'posts' %}
-        {% include blog-nav.html %}
-        {% endif %}
-
-        <div class="site-footer-container">
-            <footer>
-                <p>Copyright &copy; 2013-2014 Roopesh Chander.
-                   This site does not track visitors.
-                   Thank you for paying attention to a humble footer.</p>
-            </footer>
-        </div>
-
+{{ content }}
     </body>
 </html>

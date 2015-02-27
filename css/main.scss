@@ -190,17 +190,22 @@ header.site-nav, header.blog-nav {
 
 @import 'init';
 
+@include font-face-woff('Triplicate T4', 'Triplicate T4 Regular', 'fonts/TriplicateT4', 'regular', normal, normal);
+@include font-face-woff('Triplicate T4', 'Triplicate T4 Bold', 'fonts/TriplicateT4', 'bold', bold, normal);
+@include font-face-woff('Triplicate T4', 'Triplicate T4 Italic', 'fonts/TriplicateT4', 'italic', normal, italic);
+@include font-face-woff('Triplicate C4', 'Triplicate C4 Regular', 'fonts/TriplicateC4', 'regular', normal, normal);
 @include font-face-woff('Charter', 'Charter-Roman', 'fonts/Charter', 'regular', normal, normal);
 @include font-face-woff('Charter', 'Charter-Bold', 'fonts/Charter', 'bold', bold, normal);
 @include font-face-woff('Charter', 'Charter-Italic', 'fonts/Charter', 'italic', normal, italic);
 @include font-face-woff('Fira Sans', 'Fira Sans OT Light', '//brick.a.ssl.fastly.net/fonts/firasans', '300', 300, normal);
 @include font-face-woff('Fira Sans', 'Fira Sans OT', '//brick.a.ssl.fastly.net/fonts/firasans', '400', 400, normal);
 @include font-face-woff('Fira Sans', 'Fira Sans OT Medium', '//brick.a.ssl.fastly.net/fonts/firasans', '500', 500, normal);
-@include font-face-woff('Source Code Pro', 'Source Code Pro Regular', '//brick.a.ssl.fastly.net/fonts/sourcecodepro', '400', 400, normal);
 
-$header_fonts: 'Fira Sans', 'Verdana', sans-serif;
+$header_fonts: 'Triplicate T4', 'Courier New', monospace;
+$smallcap_header_fonts: 'Triplicate C4', 'Courier New', monospace;
 $content_fonts: 'Charter', 'Georgia', serif;
-$code_fonts: 'Source Code Pro', 'Courier New', monospace;
+$action_fonts: 'Fira Sans', 'Verdana', sans-serif;
+$code_fonts: 'Courier New', monospace;
 
 body {
     font-family: $content_fonts;
@@ -210,6 +215,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $header_fonts;
     line-height: 1.25;
     text-rendering: optimizeLegibility;
+}
+
+.normal-header {
+    font-family: $header_fonts;
+}
+
+.smallcap-header {
+    font-family: $smallcap_header_fonts;
 }
 
 h1 {
@@ -262,6 +275,86 @@ footer {
     font-weight: 300;
 }
 
+
+/* ==========================================================================
+    Front page design
+   ========================================================================== */
+
+.abs {
+    position: absolute;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.hcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blue-left {
+    background-color: #145ef1;
+    width: 50%;
+    float: left;
+    height: inherit;
+}
+
+.orange-right {
+    background-color: #f09100;
+    width: 50%;
+    float: right;
+    height: inherit;
+}
+
+.top-bar {
+    height: 4px;
+}
+
+.app-h1 {
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: $header_fonts;
+    margin-top: 1em;
+}
+
+.app-h2 {
+    font-size:  1.1em;
+    text-align: center;
+    font-weight: normal;
+    font-family: $smallcap_header_fonts;
+    margin: 10px 0 10px 0;
+}
+
+.app-h3 {
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: 400;
+    font-family: $content_fonts;
+}
+
+.get-notified-button {
+    font-size: 0.9em;
+    text-align: center;
+    font-weight: 400;
+    font-family: $action_fonts;
+    margin-top: 40px;
+}
+
+.get-notified-link {
+    border: solid 1px $content_light_gray;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    color: $content_light_gray;
+    text-decoration: none;
+}
+
+.get-notified-link:hover {
+    border-color: $content_dark_gray;
+    color: $content_dark_gray;
+}
 
 /* ====================
    Post or Page
