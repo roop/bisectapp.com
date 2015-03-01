@@ -4,13 +4,26 @@ permalink: /index.html
 title: "Bisect for iPad"
 ---
 
-<div class="separating-bar">
+<div class="separating-bar" id="get-notified">
   <div class="blue-left"></div>
   <div class="orange-right"></div>
 </div>
 
 <div class="gray-box action-box">
-Get notified about Bisect's launch.
+<p>Sign up below to get notified when Bisect launches.</br>
+<form action="http://bisectapp.createsend.com/t/i/s/jryhdu/" method="post" id="subForm">
+    <p>
+        <input id="fieldEmail"
+               name="cm-jryhdu-jryhdu"
+               type="email"
+               placeholder="your@email.com"
+               required />
+    </p>
+    <p>
+        <button type="submit">Get notified</button>
+    </p>
+</form>
+
 </div>
 
 <div class="vertical-spacer"></div>
