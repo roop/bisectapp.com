@@ -76,6 +76,9 @@ $content_light_gray: #6e6e6e;
 $link_blue: #2586d1;
 $link_underline_gray: #b3b3b3;
 
+$bisect_blue: #145ef1;
+$bisect_orange: #f09100;
+
 body {
     background-color: $white;
 }
@@ -192,23 +195,25 @@ header.site-nav, header.blog-nav {
 
 @include font-face-woff('Triplicate T4', 'Triplicate T4 Regular', 'fonts/TriplicateT4', 'regular', normal, normal);
 @include font-face-woff('Triplicate T4', 'Triplicate T4 Bold', 'fonts/TriplicateT4', 'bold', bold, normal);
-@include font-face-woff('Triplicate T4', 'Triplicate T4 Italic', 'fonts/TriplicateT4', 'italic', normal, italic);
+// @include font-face-woff('Triplicate T4', 'Triplicate T4 Italic', 'fonts/TriplicateT4', 'italic', normal, italic);
 @include font-face-woff('Triplicate C4', 'Triplicate C4 Regular', 'fonts/TriplicateC4', 'regular', normal, normal);
-@include font-face-woff('Charter', 'Charter-Roman', 'fonts/Charter', 'regular', normal, normal);
-@include font-face-woff('Charter', 'Charter-Bold', 'fonts/Charter', 'bold', bold, normal);
-@include font-face-woff('Charter', 'Charter-Italic', 'fonts/Charter', 'italic', normal, italic);
 @include font-face-woff('Fira Sans', 'Fira Sans OT Light', '//brick.a.ssl.fastly.net/fonts/firasans', '300', 300, normal);
 @include font-face-woff('Fira Sans', 'Fira Sans OT', '//brick.a.ssl.fastly.net/fonts/firasans', '400', 400, normal);
-@include font-face-woff('Fira Sans', 'Fira Sans OT Medium', '//brick.a.ssl.fastly.net/fonts/firasans', '500', 500, normal);
+// @include font-face-woff('Fira Sans', 'Fira Sans OT Medium', '//brick.a.ssl.fastly.net/fonts/firasans', '500', 500, normal);
+@include font-face-woff('Source Code Pro', 'Source Code Pro Regular', '//brick.a.ssl.fastly.net/fonts/sourcecodepro', '300', 300, normal);
+@include font-face-woff('Source Code Pro', 'Source Code Pro Regular', '//brick.a.ssl.fastly.net/fonts/sourcecodepro', '400', 400, normal);
 
 $header_fonts: 'Triplicate T4', 'Courier New', monospace;
 $smallcap_header_fonts: 'Triplicate C4', 'Courier New', monospace;
-$content_fonts: 'Charter', 'Georgia', serif;
+// $subheader_fonts: 'Triplicate T4', 'Courier New', monospace;
+$subheader_fonts: 'Triplicate C4', 'Courier New', monospace;
+$content_fonts: 'Source Code Pro', 'Courier New', monospace;
 $action_fonts: 'Fira Sans', 'Verdana', sans-serif;
 $code_fonts: 'Courier New', monospace;
 
 body {
     font-family: $content_fonts;
+    min-width: 490px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -295,25 +300,29 @@ footer {
 }
 
 .blue-left {
-    background-color: #145ef1;
+    background-color: $bisect_blue;
     width: 50%;
     float: left;
     height: inherit;
 }
 
 .orange-right {
-    background-color: #f09100;
+    background-color: $bisect_orange;
     width: 50%;
     float: right;
     height: inherit;
 }
 
-.top-bar {
+.bounding-bar {
     height: 4px;
 }
 
 .separating-bar {
     height: 2px;
+}
+
+.vertical-spacer {
+    height: 90px;
 }
 
 .app-h1 {
@@ -328,8 +337,9 @@ footer {
     font-size:  1.1em;
     text-align: center;
     font-weight: normal;
-    font-family: $smallcap_header_fonts;
+    font-family: $header_fonts;
     margin: 10px 0 10px 0;
+    color: $content_light_gray;
 }
 
 .get-notified-button {
@@ -341,21 +351,73 @@ footer {
 }
 
 .get-notified-link {
-    border: solid 1px $content_light_gray;
+    border: solid 1px $content_dark_gray;
     border-radius: 5px;
     padding: 5px 20px 5px 20px;
-    color: $content_light_gray;
+    color: $content_dark_gray;
     text-decoration: none;
 }
 
 .get-notified-link:hover {
-    border-color: $content_dark_gray;
-    color: $content_dark_gray;
+    border-color: $content_light_gray;
+    color: $content_light_gray;
 }
 
 .main-image-container {
-    margin: 40px 0 40px 0;
+    margin: 40px 0 75px 0;
     text-align: center;
+}
+
+section {
+    margin: 75px 0 75px 0;
+    text-align: center;
+    img {
+        margin-bottom: -100px;
+        max-width: 85%;
+        height: auto;
+        border-width: 0;
+        -ms-interpolation-mode: bicubic;
+    }
+    .section-text {
+        width: 95%;
+        max-width: 760px;
+        margin: 0 auto 0 auto;
+        h2, h3, h4 {
+          font-family: $subheader_fonts;
+          font-weight: normal;
+        }
+        p {
+          font-family: $content_fonts;
+          font-weight: 300;
+          font-size: 0.9em;
+        }
+    }
+}
+
+.gray-box {
+    font-family: $action_fonts;
+    color: #ededed;
+    text-align: center;
+    background-color: #828282;
+}
+
+.action-box {
+    padding: 30px;
+}
+
+.footer-box {
+    padding: 5px 0 5px 0;
+    .tiny {
+        font-size: 0.6em;
+        font-weight: 300;
+        .emph {
+            font-weight: 400;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
 }
 
 /* ====================
