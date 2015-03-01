@@ -1,11 +1,11 @@
-name:           roopc.net
+name:           bisectapp.com
 
-url:            http://roopc.net
-domain:         roopc.net
+url:            http://bisectapp.com
+domain:         bisectapp.com
 
 # Comment out when deploying
-url:              http://localhost:8082
-domain:           localhost:8082
+# url:              http://localhost:8180
+# domain:           localhost:8180
 
 permalink:   /:categories/:year/:title
 
