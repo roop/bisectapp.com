@@ -343,6 +343,20 @@ footer {
     color: $content_light_gray;
 }
 
+.app-h3 {
+    font-size:  1em;
+    font-weight: normal;
+    font-family: $header_fonts;
+    margin: 10px 0 10px 0;
+    color: $content_light_gray;
+    width: 50%;
+    max-width: 520px;
+    margin: 0 auto 0 auto;
+    p {
+        margin: 2em 0 2em;
+    }
+}
+
 .get-notified-button {
     font-size: 0.9em;
     text-align: center;
