@@ -11,7 +11,7 @@ title: "Thanks - Bisect for iPad"
 
   <p><b>Thanks for signing up.</b></p>
 
-  <p>I'll notify you when Bisect launches,
+  <p>I'll notify you when <a href="/">Bisect</a> launches,
   and will send you (a few occasional) progress updates before that.
   </p>
   <p>If you have any questions or comments, you can <a href="http://twitter.com/roopeshchander">@reply me on Twitter</a>
