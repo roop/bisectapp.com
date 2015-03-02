@@ -1,9 +1,30 @@
 ---
-layout: frontpage
+layout: default
 permalink: /index.html
 title: "Bisect for iPad"
 ---
 
+<!-- App name and description -->
+<div class="app-h1">
+  bisect
+</div>
+<div class="app-h2">
+  A split-screen Markdown editor for the iPad
+</div>
+
+<!-- Get notified button -->
+<div class="get-notified-button">
+  <a href="#get-notified" class="get-notified-link">Get notified</a>
+</div>
+
+<!-- Main image -->
+<article class="main-image-container"><img
+     src="images/bisectweb_black_ipad.png"
+     srcset="images/bisectweb_black_ipad@2x.png 2x"
+     width=791 height=558 />
+</article>
+
+<!-- Signup -->
 <div class="separating-bar" id="get-notified">
   <div class="blue-left"></div>
   <div class="orange-right"></div>
@@ -28,6 +49,7 @@ title: "Bisect for iPad"
 
 <div class="vertical-spacer"></div>
 
+<!-- Features -->
 <div class="separating-bar">
   <div class="orange-right">
   </div>
@@ -102,6 +124,7 @@ title: "Bisect for iPad"
   <div class="orange-right"></div>
 </div>
 
+<!-- Footer -->
 <div class="gray-box footer-box">
 <span class="tiny">
 Bisect is being <span class="emph">Made in India</span>
