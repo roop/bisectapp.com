@@ -14,7 +14,7 @@ title: "Bisect for iPad"
 
 <!-- Get notified button -->
 <div class="get-notified-button">
-  <a href="#get-notified" class="get-notified-link">Get notified</a>
+  <a href="#get-notified" class="get-notified-link">Join Beta</a>
 </div>
 
 <!-- Main image -->
@@ -31,7 +31,8 @@ title: "Bisect for iPad"
 </div>
 
 <div class="gray-box action-box">
-<p>Sign up below to get notified when Bisect launches.</br>
+<p>Sign up to participate in the upcoming beta program.</br>
+<small>(Bisect requires an iPad running iOS 8)</small></br></p>
 <form action="http://bisectapp.createsend.com/t/i/s/jryhdu/" method="post" id="subForm">
     <p>
         <input id="fieldEmail"
@@ -41,7 +42,7 @@ title: "Bisect for iPad"
                required />
     </p>
     <p>
-        <button type="submit">Get notified</button>
+        <button type="submit">Count me in</button>
     </p>
 </form>
 

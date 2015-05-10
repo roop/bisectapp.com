@@ -9,19 +9,13 @@ title: "Thanks - Bisect for iPad"
 <!-- Thanks -->
 <div class="app-h3">
 
-  <p><b>Thanks for signing up.</b></p>
+  <p><b>Thanks for reserving your place in the Bisect beta program.</b></p>
 
-  <p>I'll notify you when <a href="/">Bisect</a> launches,
-  and will send you (a few occasional) progress updates before that.
+  <p>When the Bisect beta launches, you will be able to try out the beta
+  for free through <a href="https://developer.apple.com/testflight/#tester">TestFlight</a>.
   </p>
-  <p>If you have any questions or comments, you can <a href="http://twitter.com/roopeshchander">@reply me on Twitter</a>
+
+  <p>If you have any questions or comments, please <a href="http://twitter.com/roopeshchander">@reply me on Twitter</a>
   or <a href="mailto:roop@roopc.net">mail me</a>.</p>
-
-  <p>
-  Thanks again,<br />
-  <a href="http://roopc.net/"><b>roop</b></a><br />
-
-  <small>(I'm the solo indie developer behind Bisect)</small>
-  </p>
 
 </div>
