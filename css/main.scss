@@ -358,12 +358,20 @@ footer {
     }
 }
 
-.get-notified-button {
+.get-notified-button-area {
     font-size: 0.9em;
     text-align: center;
     font-weight: 400;
     font-family: $action_fonts;
     margin-top: 40px;
+    a {
+        color: $content_dark_gray;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $content_light_gray;
+        text-decoration: underline;
+    }
 }
 
 .get-notified-link {

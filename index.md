@@ -13,8 +13,12 @@ title: "Bisect for iPad"
 </div>
 
 <!-- Get notified button -->
-<div class="get-notified-button">
+<div class="get-notified-button-area">
+  <a href="/blog/">Blog</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="#get-notified" class="get-notified-link">Join Beta</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="/privacy/">Privacy</a>
 </div>
 
 <!-- Main image -->
