@@ -11,7 +11,6 @@ title: "Bisect Blog"
 
 <div class="main-container">
 <article>
-<div class="post-index-container">
 
   {% for page in site.posts limit:5 %}
 
@@ -33,7 +32,6 @@ title: "Bisect Blog"
 </div>
 
 </article>
-</div>
 
 <!-- Footer -->
 <div class="gray-box footer-box">
