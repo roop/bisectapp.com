@@ -16,7 +16,7 @@ title: "Bisect for iPad"
 <div class="get-notified-button-area">
   <a href="/blog/">Blog</a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#get-notified" class="get-notified-link">Join Beta</a>
+  <a href="#join-beta" class="get-notified-link">Join Beta</a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="/privacy/">Privacy</a>
 </div>
@@ -29,7 +29,7 @@ title: "Bisect for iPad"
 </article>
 
 <!-- Signup -->
-<div class="separating-bar" id="get-notified">
+<div class="separating-bar" id="join-beta">
   <div class="blue-left"></div>
   <div class="orange-right"></div>
 </div>

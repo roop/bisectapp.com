@@ -7,7 +7,7 @@ domain:         bisectapp.com
 # url:              http://localhost:8180
 # domain:           localhost:8180
 
-permalink:   /:categories/:year/:title
+permalink:   /blog/:title
 
 markdown:    'redcarpet'
 

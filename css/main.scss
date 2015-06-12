@@ -90,6 +90,7 @@ article {
         color: $link_blue;
         text-decoration: none;
         border-bottom: 1px dotted $link_underline_gray;
+        margin-bottom: -5px;
     }
     a:hover {
         text-decoration: none;
@@ -216,6 +217,7 @@ $code_fonts: 'Courier New', monospace;
 body {
     font-family: $content_fonts;
     min-width: 490px;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -233,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 1.4em;
     font-weight: 400;
 }
 
@@ -333,6 +335,10 @@ footer {
     font-weight: bold;
     font-family: $header_fonts;
     margin-top: 1em;
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 }
 
 .app-h2 {
@@ -507,9 +513,18 @@ article {
     }
 }
 
+.blog-post {
+    h1 {
+    a {
+        text-decoration: none;
+        border-bottom: none;
+        color: inherit;
+    }
+    }
+}
 span.post-date {
-    font-family: $header_fonts;
-    font-weight: 300;
+    font-family: $content_fonts;
+    font-weight: 400;
     font-size: 110%;
     color: $post_date_gray;
     margin: 0;

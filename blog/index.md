@@ -1,6 +1,7 @@
 ---
 layout: default
-category: post
+permalink: /blog/
+title: "Bisect Blog"
 ---
 
 <!-- App name and description -->
@@ -10,21 +11,28 @@ category: post
 
 <div class="main-container">
 <article>
+<div class="post-index-container">
+
+  {% for page in site.posts limit:5 %}
+
 <div class="blog-post">
-<h1>{{ page.title }}</h1>
+<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 <p>
   <span class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B&nbsp;%d,&nbsp;%Y" }}</time>{% if page.modified %} (Modified <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B&nbsp;%d,&nbsp;%Y" }}</time>){% endif %}</span>
 </p>
 
-{{ content }}
+{{ page.content }}
 
 </div>
+
+  <hr />
+  {% endfor %}
+
+  <div style="height: 3em;"></div>
+
+</div>
+
 </article>
-</div>
-
-<div class="separating-bar">
-  <div class="blue-left"></div>
-  <div class="orange-right"></div>
 </div>
 
 <!-- Footer -->
