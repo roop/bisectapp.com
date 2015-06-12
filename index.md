@@ -68,12 +68,17 @@ title: "Bisect for iPad"
       />
 <div class="section-text">
   <h2>Instant Markdown</h2>
-  <p>Bisect provides accurate syntax-highlighting for Markdown,
-  and auto-completes syntax characters for lists and blockquotes.</p>
-
   <p>In landscape orientation, you can optionally split the screen
   to see a live preview of the Markdown text. The preview updates
   as you type and scrolls automatically to the changed text.</p>
+
+  <p>Bisect provides a quicktype bar for Markdown that
+  dynamically changes based on what you're typing. From the
+  quicktype bar, you can add emphasis, see what a text links to,
+  insert URLs from the browser, and more. When using link
+  references, the quicktype bar suggests references defined in the
+  document.</p>
+
 </div>
 </section>
 
