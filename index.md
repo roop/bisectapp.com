@@ -35,7 +35,7 @@ title: "Bisect for iPad"
 </div>
 
 <div class="gray-box action-box">
-<p>Sign up to participate in the upcoming beta program.</br>
+<p>Sign up to participate in the beta program.</br>
 <small>(Bisect requires an iPad running iOS 8)</small></br></p>
 <form action="http://bisectapp.createsend.com/t/i/s/jryhdu/" method="post" id="subForm">
     <p>
