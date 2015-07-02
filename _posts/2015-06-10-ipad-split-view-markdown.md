@@ -28,35 +28,27 @@ Here's some of the stuff you can do with Bisect:
  * Browse the web as you write a blog post, and add a Markdown link
    reference from the browser
 
-<figure>
-    <a href="/blog/images/add_ref.gif" />
-    <img src="/blog/images/add_ref.gif" />
-    </a>
-</figure>
+<div class="video-wrap">
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/7Z8g-zF-rMI?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
  * Link the current selection
 
-<figure>
-    <a href="/blog/images/link_selection.gif" />
-    <img src="/blog/images/link_selection.gif" />
-    </a>
-</figure>
+<div class="video-wrap">
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/qpBpaXkyc1g?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
  * Create a link to the current webpage as you write
 
-<figure>
-    <a href="/blog/images/insert_current_browser_url.gif" />
-    <img src="/blog/images/insert_current_browser_url.gif" />
-    </a>
-</figure>
+<div class="video-wrap">
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/2l1sMGIrgxc?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
  * See a live Markdown preview of your post, updated as you type
 
-<figure>
-    <a href="/blog/images/live_preview.gif" />
-    <img src="/blog/images/live_preview.gif" />
-    </a>
-</figure>
+<div class="video-wrap">
+<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/q1_oEHqQbtc?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Bisect does this by including the browser, the editor and the preview as
 separate components in the same app.
