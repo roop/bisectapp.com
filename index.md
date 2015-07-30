@@ -52,7 +52,7 @@ title: "Bisect for iPad"
   Markdown. The in-built browser is tightly integrated with the editor,
   so you can add links to the Markdown text right from the browser.</p>
 
-  <p>You can quickly move to full-screen mode when you need to focus,
+  <p>You can quickly get to the traditional full-screen mode,
   and even then, switching between the browser, the editor and the live
   preview is just a swipe away.  Bisect's split-screen multitasking
   capabilities are independent of the Split View feature coming to the
