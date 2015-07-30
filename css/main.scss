@@ -334,7 +334,6 @@ footer {
     text-align: center;
     font-weight: bold;
     font-family: $header_fonts;
-    margin-top: 1em;
     a {
         text-decoration: none;
         color: inherit;
@@ -362,6 +361,11 @@ footer {
     p {
         margin: 2em 0 2em;
     }
+}
+
+.centered_image {
+    margin: 30px 0 10px 0;
+    text-align: center;
 }
 
 .get-notified-button-area {
@@ -394,7 +398,7 @@ footer {
 }
 
 .main-image-container {
-    margin: 40px 0 75px 0;
+    margin: 30px 0 75px 0;
     text-align: center;
 }
 

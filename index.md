@@ -5,6 +5,11 @@ title: "Bisect for iPad"
 ---
 
 <!-- App name and description -->
+<div class="centered_image"><img
+    src="/images/bisect_logo_rendered.png"
+    srcset="/images/bisect_logo_rendered@2x.png 2x"
+    width="128" height="128" />
+</div>
 <div class="app-h1">
   bisect
 </div>
@@ -12,7 +17,13 @@ title: "Bisect for iPad"
   A split-screen Markdown editor for the iPad
 </div>
 
-<!-- Get notified button -->
+<div class="centered_image">
+  <a
+    href=""><img
+    src="/images/app_store_badge.svg" /></a>
+</div>
+
+<!-- Get notified button
 <div class="get-notified-button-area">
   <a href="/blog/">Blog</a>
   &nbsp;&nbsp;&nbsp;&nbsp;
@@ -20,6 +31,7 @@ title: "Bisect for iPad"
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="/privacy/">Privacy</a>
 </div>
+-->
 
 <!-- Main image -->
 <article class="main-image-container"><img
