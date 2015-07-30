@@ -19,7 +19,7 @@ title: "Bisect for iPad"
 
 <div class="centered_image">
   <a
-    href=""><img
+    href="https://itunes.apple.com/us/app/bisect-split-screen-markdown/id936461210?ls=1&mt=8"><img
     src="/images/app_store_badge.svg" /></a>
 </div>
 
@@ -141,7 +141,7 @@ title: "Bisect for iPad"
 You can unlock everything for just $9.99.<br/></p>
 
   <a
-    href=""><img
+    href="https://itunes.apple.com/us/app/bisect-split-screen-markdown/id936461210?ls=1&mt=8"><img
     src="/images/app_store_badge.svg" /></a>
 
 </div>
