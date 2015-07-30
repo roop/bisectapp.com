@@ -349,13 +349,16 @@ footer {
     color: $content_light_gray;
 }
 
-.app-h3 {
+.page-content {
     font-size:  1em;
-    font-weight: normal;
-    font-family: $header_fonts;
+    font-weight: 300;
+    font-family: $content_fonts;
     margin: 10px 0 10px 0;
-    color: $content_light_gray;
-    width: 50%;
+    color: $content_dark_gray;
+    h2 {
+        color: $content_light_gray;
+    }
+    width: 70%;
     max-width: 520px;
     margin: 0 auto 0 auto;
     p {

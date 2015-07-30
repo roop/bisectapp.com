@@ -4,7 +4,7 @@ permalink: /privacy/
 title: "Privacy Policy - Bisect for iPad"
 ---
 
-## Privacy Policy - Bisect for iPad
+## Privacy Policy
 
 Bisect contacts external servers for the following purposes:
 
