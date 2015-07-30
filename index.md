@@ -24,13 +24,6 @@ title: "Bisect for iPad"
 </div>
 
 <!-- Get notified button
-<div class="get-notified-button-area">
-  <a href="/blog/">Blog</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#join-beta" class="get-notified-link">Join Beta</a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="/privacy/">Privacy</a>
-</div>
 -->
 
 <!-- Main image -->
@@ -39,32 +32,6 @@ title: "Bisect for iPad"
      srcset="images/bisectweb_black_ipad@2x.png 2x"
      width=791 height=558 />
 </article>
-
-<!-- Signup -->
-<div class="separating-bar" id="join-beta">
-  <div class="blue-left"></div>
-  <div class="orange-right"></div>
-</div>
-
-<div class="gray-box action-box">
-<p>Sign up to participate in the beta program.</br>
-<small>(Bisect requires an iPad running iOS 8)</small></br></p>
-<form action="http://roopc.createsend.com/t/i/s/jryhdu/" method="post" id="subForm">
-    <p>
-        <input id="fieldEmail"
-               name="cm-jryhdu-jryhdu"
-               type="email"
-               placeholder="your@email.com"
-               required />
-    </p>
-    <p>
-        <button type="submit">Count me in</button>
-    </p>
-</form>
-
-</div>
-
-<div class="vertical-spacer"></div>
 
 <!-- Features -->
 <div class="separating-bar">
@@ -161,15 +128,37 @@ title: "Bisect for iPad"
 </div>
 </section>
 
-<div class="separating-bar">
+<!-- Signup -->
+<div class="separating-bar" id="join-beta">
+  <div class="blue-left"></div>
+  <div class="orange-right"></div>
+</div>
+
+<div class="gray-box action-box">
+<h2>Try <b>bisect</b> for free</h2>
+
+<p>Bisect is free with some limits.<br/>
+You can unlock everything for just $9.99.<br/></p>
+
+  <a
+    href=""><img
+    src="/images/app_store_badge.svg" /></a>
+
+</div>
+
+<div class="separating-bar" id="join-beta">
   <div class="blue-left"></div>
   <div class="orange-right"></div>
 </div>
 
 <!-- Footer -->
-<div class="gray-box footer-box">
-<span class="tiny">
-Bisect is being <span class="emph">Made in India</span>
-by <span class="emph"><a href="http://roopc.net/">Roopesh Chander</a></span>
-</span>
+<div class="footer-box">
+<p>
+  © 2015 Roopesh Chander
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="/contact/">Contact</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="/privacy/">Privacy Policy</a>
+</p>
+<p><small>Apple, the Apple logo, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</small></p>
 </div>

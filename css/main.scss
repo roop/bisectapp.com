@@ -448,18 +448,16 @@ section {
 }
 
 .footer-box {
+    text-align: center;
     padding: 5px 0 5px 0;
-    .tiny {
-        font-size: 0.6em;
-        font-weight: 300;
-        .emph {
-            color: #efefef;
-            font-weight: 400;
-        }
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
+    font-size: 0.9em;
+    font-weight: 300;
+    color: $content_light_gray;
+    a {
+        color: $content_dark_gray;
+    }
+    small {
+        font-size: 0.8em;
     }
 }
 
