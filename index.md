@@ -54,9 +54,9 @@ title: "Bisect for iPad"
 
   <p>You can quickly get to the traditional full-screen mode,
   and even then, switching between the browser, the editor and the live
-  preview is just a swipe away.  Bisect's split-screen multitasking
-  capabilities are independent of the Split View feature coming to the
-  iPad in iOS 9.</p>
+  preview is just a swipe away. Bisect's split-screen multitasking
+  capability is independent of and unrelated to the Split View feature
+  in iOS 9.</p>
 
 </div>
 </section>
