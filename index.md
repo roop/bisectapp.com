@@ -17,14 +17,12 @@ title: "Bisect for iPad"
   A split-screen Markdown editor for the iPad
 </div>
 
-<div class="centered_image">
-  <a
-    href="https://itunes.apple.com/us/app/bisect-split-screen-markdown/id936461210?ls=1&mt=8&at=1000l6ab"><img
-    src="/images/app_store_badge.svg" /></a>
+<section>
+<div class="section-text">
+  <h2>Bisect is [shutting down](http://roopc.net/posts/2016/sunsetting-bisect/).</h2>
 </div>
+</section>
 
-<!-- Get notified button
--->
 
 <!-- Main image -->
 <article class="main-image-container"><img
@@ -137,7 +135,9 @@ title: "Bisect for iPad"
 <div class="gray-box action-box">
 <h2>Try <b>bisect</b> for free</h2>
 
-<p>Bisect is free with some limits.<br/>
+<p>Bisect is <a
+href="http://roopc.net/posts/2016/sunsetting-bisect/">shutting down</a>
+but you can try it for free.<br/>
 You can unlock everything for just $9.99.<br/></p>
 
   <a
