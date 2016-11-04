@@ -19,7 +19,7 @@ title: "Bisect for iPad"
 
 <section>
 <div class="section-text">
-  <h2>Bisect is [shutting down](http://roopc.net/posts/2016/sunsetting-bisect/).</h2>
+  <h2>Bisect is <a href="http://roopc.net/posts/2016/sunsetting-bisect/">shutting down</a>.</h2>
 </div>
 </section>
 
