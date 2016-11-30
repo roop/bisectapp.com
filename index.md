@@ -149,7 +149,7 @@ and is no longer available for sale.
 <!-- Footer -->
 <div class="footer-box">
 <p>
-  © 2015 Roopesh Chander
+  © 2015-2016 Roopesh Chander
   &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="/contact/">Contact</a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
