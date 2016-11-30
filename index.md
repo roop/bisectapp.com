@@ -19,7 +19,7 @@ title: "Bisect for iPad"
 
 <section>
 <div class="section-text">
-  <h2>Bisect is <a href="http://roopc.net/posts/2016/sunsetting-bisect/">shutting down</a>.</h2>
+  <h2>Bisect has <a href="http://roopc.net/posts/2016/sunsetting-bisect/">shut down</a>.</h2>
 </div>
 </section>
 
@@ -133,16 +133,11 @@ title: "Bisect for iPad"
 </div>
 
 <div class="gray-box action-box">
-<h2>Try <b>bisect</b> for free</h2>
 
-<p>Bisect is <a
-href="http://roopc.net/posts/2016/sunsetting-bisect/">shutting down</a>
-but you can try it for free.<br/>
-You can unlock everything for just $9.99.<br/></p>
-
-  <a
-    href="https://itunes.apple.com/us/app/bisect-split-screen-markdown/id936461210?ls=1&mt=8&at=1000l6ab"><img
-    src="/images/app_store_badge.svg" /></a>
+<p>Bisect has <a
+href="http://roopc.net/posts/2016/sunsetting-bisect/">shut down</a>
+and is no longer available for sale.
+</p>
 
 </div>
 
